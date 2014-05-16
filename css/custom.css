@@ -1,0 +1,21 @@
+/*!
+ * Live events feed
+ */
+
+@media (min-width:600px) {
+	.events_feed_container {
+		width:600px;
+		}
+	.container {
+		padding-left: 40px;
+		}}
+
+@media (min-width:992px) {
+	.events_feed_container {
+		width:600px
+		}}
+
+@media (min-width:1200px) {
+	.events_feed_container {
+		width:600px
+		}}
