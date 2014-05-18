@@ -2,6 +2,12 @@
  * Live events feed
  */
 
+
+@media (max-width:360px) {
+	.col-xs-9 h3 {
+		font-size: 18px;
+	}}
+
 @media (min-width:600px) {
 	.events_feed_container {
 		width:600px;
@@ -19,3 +25,22 @@
 	.events_feed_container {
 		width:600px
 		}}
+
+.event_time {
+	text-align: center;
+	border: #555 1px solid;
+	padding: 0;
+}
+
+.tag {
+	text-align: center;
+	border: #555 1px solid;
+	padding: 0;
+	margin: 2px;
+	font-size: 11px;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+	margin-top: 2px;
+	margin-bottom: 5px;
+}
