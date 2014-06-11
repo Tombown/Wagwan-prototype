@@ -1,0 +1,115 @@
+/*!
+ * Screen sizes
+ */
+@media (max-width:360px) {
+	.col-xs-10 h3 {
+		font-size: 18px;
+	}
+	.day {
+		font-size: 11px;
+	}
+	.tag {
+		font-size: 11px;
+		}}
+
+@media (min-width:720px) {
+	.event-feed-container {
+		width:600px;
+		}
+	.event-page {
+		width:720px;
+		}}
+
+@media (min-width:992px) {
+	.event_feed_container {
+		width:600px
+		}
+	.event-page {
+		width:720px;
+		}}
+
+@media (min-width:1200px) {
+	.event_feed_container {
+		width:600px
+		}
+	.event-page {
+		width:720px;
+		}}
+
+/*!
+ * Live events feed
+ */
+
+.time {
+	text-align: center;
+	border: #555 1px solid;
+	padding: 0;
+}
+
+/*!
+ * Social
+ */
+
+.social {
+	float: right;
+	padding-top: 2px;
+}
+
+.social span {
+	text-indent: -999px;
+	overflow: hidden;
+}
+
+.social ul li {
+	padding: 0;
+}
+
+.fa-2x {
+	font-size: 22px;
+}
+
+/*!
+ * General
+ */
+
+h1, .h1, h2, .h2, h3, .h3 {
+	margin-top: 2px;
+	margin-bottom: 5px;
+}
+
+.tag-container {
+	float: left;
+	margin-left: 2px;
+}
+
+.tag {
+	text-align: center;
+	border: #555 1px solid;
+	padding: 0;
+	margin:5px 2px 0 0;
+	float: left;
+}
+.list-inline {
+	margin-left: 0;
+}
+
+/*!
+ * Event page
+ */
+
+.map {
+	padding: 0;
+}
+
+.event-close {
+	padding: 0;
+}
+
+.event-copy {
+	padding: 5px 2px 0 2px;
+}
+
+.btn-width-100 {
+	margin: 5px 0 0 0;
+	width: 100%;
+}
