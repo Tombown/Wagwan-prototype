@@ -40,6 +40,12 @@
 		font-size: 18px;
 			}}
 
+
+@media (max-width:360px) {
+	.col-xs-9 h3 {
+		font-size: 18px;
+	}}
+
 @media (min-width:600px) {
 	.event-feed {
 		width:600px;
@@ -82,6 +88,7 @@
 @media (min-width:1200px) {
 	.event_feed_container {
 		width:600px
+<<<<<<< HEAD
 		}
 	.event-page {
 		width:900px;
@@ -101,10 +108,16 @@
  */
 
 .time {
+=======
+		}}
+
+.event_time {
+>>>>>>> FETCH_HEAD
 	text-align: center;
 	border: #555 1px solid;
 	padding: 0;
 }
+<<<<<<< HEAD
 .live-feed-image {
 	max-width: 100%;
 	height: auto;
@@ -136,10 +149,22 @@ a.navbar-brand {
  * General
  */
 
+=======
+
+.tag {
+	text-align: center;
+	border: #555 1px solid;
+	padding: 0;
+	margin: 2px;
+	font-size: 11px;
+}
+
+>>>>>>> FETCH_HEAD
 h1, .h1, h2, .h2, h3, .h3 {
 	margin-top: 2px;
 	margin-bottom: 5px;
 }
+<<<<<<< HEAD
 
 .tag-container {
 	float: left;
